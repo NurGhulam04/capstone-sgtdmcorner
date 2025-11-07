@@ -43,7 +43,7 @@
                         Batal
                     </a>
                     <button type="submit"
-                            class="text-center bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300">
+                            class="text-center bg-[#A61819] hover:bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300">
                         Simpan Perubahan
                     </button>
                 </div>
