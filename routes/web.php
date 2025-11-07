@@ -19,6 +19,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/pendahuluan', [DashboardController::class, 'pendahuluan'])->name('pendahuluan');
     Route::get('/video', [DashboardController::class, 'video'])->name('video');
     Route::get('/artikel', [ArticleController::class, 'index'])->name('artikel');
+    Route::resource('laporan-aktivitas', ActivityReportController::class);
 
     Route::resource('laporan-gula-darah', BloodSugarReportController::class);
 
